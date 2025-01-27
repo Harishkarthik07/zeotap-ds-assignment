@@ -7,45 +7,53 @@ Dataset Description
 
 The dataset consists of three CSV files:
 
-Customers.csv
+Customers.csv :
 Details about customers, including their ID, name, region, and signup date.
 
-Products.csv
+Products.csv :
 Information about products, including product ID, name, category, and price.
 
-Transactions.csv
+Transactions.csv :
 Transaction records, including transaction ID, customer ID, product ID, quantity, and total value.
 
-Tasks Completed
-1. Exploratory Data Analysis (EDA)
+Tasks Completed :
+1. Exploratory Data Analysis (EDA) :
 
 Performed data exploration to understand the structure and summary of the dataset.
 Key business insights were derived, including customer trends, product popularity, and regional analysis.
+
 Deliverables:
+
 Jupyter Notebook (Harish_Karthik_EDA.ipynb)
 Report (Harish_Karthik_EDA.pdf)
 
-2. Lookalike Model
+2. Lookalike Model :
 
 Built a model to recommend the top 3 similar customers for a given user based on profile and transaction data.
 Assigned similarity scores to rank recommendations.
-Deliverables:
+
+Deliverables :
+
 Jupyter Notebook (Harish_Karthik_Lookalike.ipynb)
 CSV Output (Harish_Karthik_Lookalike.csv)
 
-3. Customer Segmentation (Clustering)
+3. Customer Segmentation (Clustering) :
 
 Performed clustering to segment customers into distinct groups based on profile and transaction patterns.
 Evaluated clustering performance using the Davis-Bouldin (DB) Index.
 Visualized clusters to interpret the characteristics of each segment.
-Deliverables:
+
+Deliverables :
+
 Jupyter Notebook (Harish_Karthik_Clustering.ipynb)
 Report (Harish_Karthik_Clustering.pdf)
 
 Technologies Used
 
 Programming Language: Python
+
 Libraries:
+
 Pandas
 NumPy
 Matplotlib
